@@ -1,0 +1,36 @@
+/* estilos.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.producto {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.cantidad {
+    margin: 20px 0;
+}
+
+.cantidad button {
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    color: #333;
+    background-color: #eee;
+    border: none;
+    cursor: pointer;
+}
+
+.cantidad span {
+    margin: 0 10px;
+    font-size: 18px;
+}
